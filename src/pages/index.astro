@@ -19,6 +19,11 @@ import Navigation from "../components/Navigation.astro";
   <body class="min-h-[calc(100vh-30px)] bg-white">
     <main class="container mx-auto">
       <Navigation />
+      <h1
+        class="text font-bold border-t border-b text-nowrap mt-8 [font-size:_clamp(5vw,18vw-1rem,243.8px)] text-black-1 text-center leading-normal"
+      >
+        THE BLOG
+      </h1>
     </main>
   </body>
 </html>
@@ -27,4 +32,15 @@ import Navigation from "../components/Navigation.astro";
   html {
     font-family: "Inter", sans-serif;
   }
+  /* For mobile devices */
+  /* .text {
+    font-size: clamp(5vw, 18vw - 1rem, 243.8px);
+    text-align: center;
+
+    /* mobile - 72px
+
+Tablet - 160.8px
+
+Desktop version - 243.8px */
+  /* } */
 </style>
